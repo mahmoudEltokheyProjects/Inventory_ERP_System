@@ -1,0 +1,63 @@
+/* ================ Start : search inputField ================ */
+.search-map-input
+{
+  position: absolute;
+  right: 70px !important;
+  top: 0px !important;
+  width: 70% !important; /* Adjust width as needed */
+  height: 45px;
+  padding: 10px;
+  margin: 6px 0px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+.search-map-input:hover {
+    outline:none;
+    border: 2px solid #007bff; /* Blue border for better visibility */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+/* ================ End : Search inputField +++++++++++++++ */
+/* ================ start :  "Current Place" button click ================ */
+/* ++++++++++++++ auto-detect button ++++++++++++++ */
+.auto-detect-btn {
+  width: 40px;
+  height: 33px;
+  position: absolute;
+  top: 55% !important; /* Adjusted to appear clearly above the bottom edge */
+  right: 10px !important; /* Positioned on the bottom-left corner */
+  z-index: 1000; /* Ensures it appears above the map */
+  background-color: #fff; /* White background for good contrast */
+  border: 2px solid transparent; /* Blue border for better visibility */
+  outline:none !important;
+  color: #eb1c1c; /* Black text for good readability */
+  font-size: 20px; /* Readable font size */
+  font-weight: bold; /* Make text stand out */
+  cursor: pointer; /* Indicates the button is clickable */
+  outline:none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* Adds depth with a subtle shadow */
+  transition: all 0.3s ease; /* Smooth transitions for hover effects */
+}
+.auto-detect-btn:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+.auto-detect-btn:active {
+    outline:none;
+    transform: scale(0.95); /* Subtle shrink effect on click */
+}
+/* ================ end :  "Current Place" button click ================ */
+
+
+@media screen and (max-width: 1024px)
+{
+  .search-map-input
+  {
+    left: 8px !important;
+    top: 50px !important;
+    display: block;
+    width: 93% !important;
+  }
+}

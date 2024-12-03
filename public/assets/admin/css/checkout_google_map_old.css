@@ -1,0 +1,11 @@
+.search-map-input
+{
+  width: 70% !important; /* Adjust width as needed */
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  outline: none;
+}
